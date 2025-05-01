@@ -10,7 +10,7 @@ class CryptoAssetModel with _$CryptoAssetModel {
     required String id,
     required String symbol,
     required String name,
-    @JsonKey(name: 'priceUsd') required String priceUsd,
+    required String priceUsd,
   }) = _CryptoAssetModel;
 
   factory CryptoAssetModel.fromJson(Map<String, dynamic> json) =>
