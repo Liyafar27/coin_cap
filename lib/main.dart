@@ -31,6 +31,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Crypto Assets',
       theme: ThemeData(
+        fontFamily: 'SFProText',
         useMaterial3: true,
         colorSchemeSeed: Colors.deepPurple,
         scaffoldBackgroundColor: Colors.white,
