@@ -10,10 +10,8 @@ import 'data/datasources/crypto_asset_remote_data_source.dart';
 
 final dio = Dio();
 
-// Создаем источник данных
 final remoteDataSource = CryptoAssetRemoteDataSourceImpl(dio: dio);
 
-// Репозиторий с внедрением зависимостей
 final repository = CryptoAssetRepositoryImpl(
   remoteDataSource: remoteDataSource,
 );
